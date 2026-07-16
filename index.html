@@ -24,6 +24,8 @@ title: "みさわ宏明 公式サイト"
 次の世代が「日本に生まれてよかった」と言える国をつくる。  
 そのために、私は政治の道を歩んでいます。
 
+---
+
 ## プロフィール
 みさわ 宏明
 MISAWA HIROAKI
@@ -68,12 +70,27 @@ MISAWA HIROAKI
 ---
 
 <div id="activity">
-## 活動内容
-練馬での活動や選挙応援など、ブログ形式の活動報告の概要を記載します。
 
-※詳細ページは後から作成予定  
-※ブログ記事は `_posts/` に追加していく
+## 活動内容
+
+練馬での活動や選挙応援など、日々の活動をブログ形式で発信しています。
+
+---
+
+### 最新の活動報告
+
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'activity'" | limit: 3 %}
+
+{% for post in posts %}
+- **[{{ post.title }}]({{ post.url }})**  
+  {{ post.date | date: "%Y年%-m月%-d日" }}  
+  {{ post.excerpt }}
+{% endfor %}
+
+[→ 活動報告一覧を見る](/activity/)
+
 </div>
+
 
 ---
 

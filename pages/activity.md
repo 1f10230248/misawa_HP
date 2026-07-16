@@ -1,7 +1,19 @@
 ---
 layout: single
-title: "活動報告"
+title: "活動報告一覧"
 permalink: /activity/
 ---
 
-活動報告の記事一覧がここに表示されます。
+## 活動報告一覧
+
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'activity'" %}
+
+{% for post in posts %}
+### [{{ post.title }}]({{ post.url }})
+{{ post.date | date: "%Y年%-m月%-d日" }}
+
+{{ post.excerpt }}
+
+---
+
+{% endfor %}
