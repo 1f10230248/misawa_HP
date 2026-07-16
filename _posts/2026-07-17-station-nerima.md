@@ -1,6 +1,6 @@
 ---
 title: "練馬駅で朝のご挨拶"
-date: 2026-07-16
+date: 2026-07-17
 categories: activity
 header:
   image: /assets/images/activity/nerima-station.jpg
