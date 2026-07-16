@@ -1,11 +1,13 @@
 main:
   - title: "プロフィール"
-    url: /profile/
-  - title: "政策・理念"
-    url: /policy/
-  - title: "活動報告"
-    url: /activity/
-  - title: "ブログ"
-    url: /blog/
+    url: /#profile
+  - title: "政策"
+    url: /#policy
+  - title: "活動内容"
+    url: /#activity
+  - title: "SNS"
+    url: /#sns
+  - title: "応援する"
+    url: /#support
   - title: "お問い合わせ"
-    url: /contact/
+    url: /#contact
