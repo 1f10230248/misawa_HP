@@ -86,11 +86,9 @@ MISAWA HIROAKI
   {{ post.date | date: "%Y年%-m月%-d日" }}  
   {{ post.excerpt }}
 {% endfor %}
-[→ 活動報告一覧を見る](/activity/)
-
 
 </div>
-
+[→ 活動報告一覧を見る](/activity/)
 ---
 
 <div id="sns">
