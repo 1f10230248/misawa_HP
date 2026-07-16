@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "活動報告一覧"
 permalink: /activity/
 ---
