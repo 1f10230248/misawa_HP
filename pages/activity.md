@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "活動報告一覧"
-permalink: /activity/
+permalink: /pages/activity/
 ---
 
 ## 活動報告一覧
