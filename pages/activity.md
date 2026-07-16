@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "活動報告一覧"
-permalink: /pages/activity/
+permalink: /misawa_HP/activity/
 ---
 
 ## 活動報告一覧
