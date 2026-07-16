@@ -10,7 +10,7 @@ permalink: /activity/
 
 {% for post in posts %}
 ### [{{ post.title }}]({{ post.url }})
-{{ post.date | date: "%Y年%-m月%-d日" }}
+<small>{{ post.date | date: "%Y年%-m月%-d日" }}</small>
 
 {{ post.excerpt }}
 
