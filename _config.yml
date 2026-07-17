@@ -20,8 +20,8 @@ direction                : # "ltr" (default), "rtl" # set the direction of the p
 title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "みさわ宏明"
-description              : "国民民主党 東京28区総支部長 公式サイト"
+name                     : ""
+description              : ""
 url                      : "https://1f10230248.github.io"
 baseurl                  : "/misawa_HP"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
