@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "ja"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "みさわ宏明（国民民主党 東京28区）"
+title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "みさわ宏明"
