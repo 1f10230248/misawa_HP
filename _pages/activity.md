@@ -9,11 +9,10 @@ permalink: /misawa_HP/activity/
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'activity'" %}
 
 {% for post in posts %}
-### [{{ post.title }}]({{ post.url }})
+### [{{ post.title }}]({{ post.url | relative_url }})
 <small>{{ post.date | date: "%Y年%-m月%-d日" }}</small>
 
 {{ post.excerpt }}
 
 ---
-
 {% endfor %}

@@ -62,10 +62,11 @@ MISAWA HIROAKI
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'activity'" | limit: 3 %}
 
 {% for post in posts %}
-- **[{{ post.title }}]({{ post.url }})**  
+- **[{{ post.title }}]({{ post.url | relative_url }})**  
   {{ post.date | date: "%Y年%-m月%-d日" }}  
   {{ post.excerpt }}
 {% endfor %}
+
 
 [→ 活動報告一覧を見る](/misawa_HP/activity/)
 
