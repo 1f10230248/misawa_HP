@@ -26,7 +26,7 @@ url                      : ""
 baseurl                  : "/misawa_HP"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : ""
+logo                     : "/assets/images/logo.png"
 masthead_title           : "<span style='font-size:1rem;'>衆議院議員（東京28区）</span><br><span style='font-size:1.6rem; font-weight:700;'>みさわ宏明</span>"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
