@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "みさわ宏明 公式サイト"
+title: ""
 author_profile: true
 ---
 
