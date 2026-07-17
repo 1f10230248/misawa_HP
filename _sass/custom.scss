@@ -1,25 +1,25 @@
 /* 元のテキストを透明にして非表示にする */
 .site-title {
   color: transparent !important;
-  position: relative;
+  position: relative !important;
   display: block !important;
   line-height: 1.2 !important;
 }
 
 /* 1行目（肩書き） */
 .site-title::before {
-  content: "衆議院議員（東京28区）";
-  display: block;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #000; /* 黒で表示 */
+  content: "衆議院議員（東京28区）" !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #000 !important;
 }
 
 /* 2行目（名前） */
 .site-title::after {
-  content: "みさわ宏明";
-  display: block;
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #000; /* 黒で表示 */
+  content: "みさわ宏明" !important;
+  display: block !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  color: #000 !important;
 }
