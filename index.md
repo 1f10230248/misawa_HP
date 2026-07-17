@@ -79,6 +79,8 @@ MISAWA HIROAKI
 
 ### 最新の活動報告
 
+{{ site.posts | map: "categories" }}
+
 {% assign posts = site.posts | where_exp: "post", "post.categories contains 'activity'" | limit: 3 %}
 
 {% for post in posts %}
@@ -118,4 +120,4 @@ MISAWA HIROAKI
 ※詳細ページは後から作成予定
 </div>
 
-{{ site.posts | map: "categories" }}
+
