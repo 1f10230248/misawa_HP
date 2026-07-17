@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "みさわ宏明 公式サイト"
+author_profile: true
 ---
+
 
 ## 理念
 「日本に生まれてよかった」と、次の世代が言える国に。
