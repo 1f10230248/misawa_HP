@@ -1,34 +1,19 @@
-.masthead {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.masthead__inner-wrap {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.site-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-/* masthead_title を2行に分ける */
-.site-title {
+/* ヘッダーのタイトルを2行に分ける */
+.masthead__title {
   display: block;
   line-height: 1.2;
 }
 
-/* 1行目（肩書き）を小さくする */
-.site-title::before {
+/* 1行目（肩書き） */
+.masthead__title::before {
   content: "衆議院議員（東京28区）";
   display: block;
   font-size: 1rem;
   font-weight: 400;
 }
 
-/* 2行目（名前）を大きくする */
-.site-title {
+/* 2行目（名前） */
+.masthead__title {
   font-size: 1.8rem;
   font-weight: 700;
   content: "みさわ宏明";
