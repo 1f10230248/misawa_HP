@@ -88,7 +88,7 @@ MISAWA HIROAKI
 {% endfor %}
 
 </div>
-[→ 活動報告一覧を見る](/activity/)
+[→ 活動報告一覧を見る](/misawa_HP/activity/)
 ---
 
 <div id="sns">
