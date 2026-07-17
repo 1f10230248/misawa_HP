@@ -73,10 +73,12 @@ MISAWA HIROAKI
 ---
 
 ## 各種SNS
-- X（Twitter）
-- Instagram
-- YouTube  
-※リンクは後から追加
+## 各種SNS
+
+- <i class="fa-brands fa-x-twitter"></i> [X（Twitter）](https://x.com/Hiroaki_Misawa)
+- <i class="fa-brands fa-instagram"></i> [Instagram](https://www.instagram.com/hiroaki_misawa_official/)
+- <i class="fa-brands fa-youtube"></i> [YouTube](https://www.youtube.com/@みさわ宏明)
+
 
 ---
 
