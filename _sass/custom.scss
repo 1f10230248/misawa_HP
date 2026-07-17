@@ -1,11 +1,11 @@
 /* ヘッダーのタイトルを2行に分ける */
-.masthead_title {
+.site-title {
   display: block;
   line-height: 1.2;
 }
 
 /* 1行目（肩書き） */
-.masthead_title::before {
+.site-title::before {
   content: "衆議院議員（東京28区）";
   display: block;
   font-size: 1rem;
@@ -13,7 +13,7 @@
 }
 
 /* 2行目（名前） */
-.masthead_title {
+.site-title {
   font-size: 1.8rem;
   font-weight: 700;
   content: "みさわ宏明";
