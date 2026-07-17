@@ -1,7 +1,9 @@
-/* タイトルを2行に分ける */
+/* 元のテキストを透明にして非表示にする */
 .site-title {
-  display: block;
-  line-height: 1.2;
+  color: transparent !important;
+  position: relative;
+  display: block !important;
+  line-height: 1.2 !important;
 }
 
 /* 1行目（肩書き） */
@@ -10,11 +12,14 @@
   display: block;
   font-size: 1rem;
   font-weight: 400;
+  color: #000; /* 黒で表示 */
 }
 
 /* 2行目（名前） */
-.site-title {
+.site-title::after {
+  content: "みさわ宏明";
+  display: block;
   font-size: 1.8rem;
   font-weight: 700;
-  content: "みさわ宏明";
+  color: #000; /* 黒で表示 */
 }
