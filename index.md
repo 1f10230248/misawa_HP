@@ -117,3 +117,5 @@ MISAWA HIROAKI
 
 ※詳細ページは後から作成予定
 </div>
+
+{{ site.posts | map: "categories" }}
